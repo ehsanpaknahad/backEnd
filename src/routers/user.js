@@ -280,7 +280,7 @@ router.get("/api/geojson",auth, async (req, res) => {
       
     }
      res.json(storedData)
-    // console.log(JSON.stringify(storedData['oilwvav']))
+    // console.log(JSON.stringify(storedData['oilwvav'])) //
     
   } catch (error) {
     console.error("Error executing query:", error)
